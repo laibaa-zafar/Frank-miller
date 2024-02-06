@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&family=Titillium+Web:wght@300;400;700&display=swap");
+.cards-main-div {
+  background-color: whitesmoke;
+  display: flex;
+  padding: 2rem;
+  gap: 2rem;
+  justify-content: center;
+}
+.luly {
+  background-color: white;
+  border-radius: 15px;
+  padding: 40px;
+  width: 25%;
+}
+.luly-image img {
+  padding: 2px;
+  background-color: rgb(255, 255, 255);
+}
+.luly-paragraph {
+  padding-top: 10px;
+  font-family: poppins;
+  font-size: 1.25rem;
+  color: grey;
+}
+.luly-learn-more {
+  padding-top: 80px;
+  display: flex;
+  justify-content: column;
+  gap: 1rem;
+  color: var(--Primary-blue, #51b2fe);
+  font-family: Poppins;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.5rem;
+  cursor: pointer;
+}
+/* paretoprocess  */
+.paretoprocess {
+  background-color: white;
+  border-radius: 15px;
+  padding: 40px;
+  width: 25%;
+}
+.paretoprocess img {
+  padding: 10px;
+}
+.paretoprocess-paragraph {
+  padding-top: 10px;
+  font-family: poppins;
+  font-size: 1.25rem;
+  color: grey;
+}
+.paretoprocess-learn-more {
+  padding-top: 120px;
+  display: flex;
+  justify-content: column;
+  gap: 1rem;
+  color: var(--Primary-blue, #51b2fe);
+  font-family: Poppins;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.5rem;
+  cursor: pointer;
+}
+/* simplify-rei */
+.simplify-rei {
+  background-color: white;
+  border-radius: 15px;
+  padding: 30px;
+  width: 25%;
+}
+.simplify-rei img {
+  padding: 2px;
+  background-color: rgb(255, 255, 255);
+}
+.simplify-rei-paragraph {
+  padding-top: 10px;
+  font-family: poppins;
+  font-size: 1.25rem;
+  color: grey;
+}
+.simplify-rei-learn-more {
+  padding-top: 124px;
+  display: flex;
+  justify-content: column;
+  gap: 1rem;
+  color: var(--Primary-blue, #51b2fe);
+  font-family: Poppins;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.5rem;
+  cursor: pointer;
+}
+@media (max-width: 1070px) {
+  .cards-main-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(
+      128deg,
+      rgba(234, 208, 247, 0.16) 0%,
+      rgba(214, 230, 244, 0.16) 99.98%
+    );
+  }
+  .luly {
+    justify-content: center;
+    width: 23rem;
+    margin: auto;
+  }
+  .paretoprocess {
+    justify-content: center;
+    width: 23rem;
+    margin: auto;
+  }
+  .simplify-rei {
+    justify-content: center;
+    width: 26rem;
+    margin: auto;
+  }
+  .simplify-rei .simplify-rei-image img {
+    width: 14rem;
+  }
+}
+@media (max-width: 760px) {
+  .cards-main-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(
+      128deg,
+      rgba(234, 208, 247, 0.16) 0%,
+      rgba(214, 230, 244, 0.16) 99.98%
+    );
+    width: 131.1%;
+  }
+  .luly {
+    justify-content: center;
+    width: 23rem;
+    margin: auto;
+  }
+  .paretoprocess {
+    justify-content: center;
+    width: 23rem;
+    margin: auto;
+  }
+  .simplify-rei {
+    justify-content: center;
+    width: 26rem;
+    margin: auto;
+  }
+  .simplify-rei .simplify-rei-image img {
+    width: 14rem;
+  }
+}

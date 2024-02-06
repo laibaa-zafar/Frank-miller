@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&family=Titillium+Web:wght@300;400;700&display=swap");
+.main-frank-miller-div {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(6, 21, 43);
+  justify-content: center;
+  gap: 7rem;
+  padding-top: 7rem;
+}
+.main-blue-div {
+  padding: 2rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.5rem;
+  height: 55rem;
+}
+
+.heading-div h1 {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* margin-left: 80px; */
+  padding-top: 60px;
+}
+.heading-div h1 {
+  color: rgb(255, 255, 255);
+  font-family: Poppins;
+  font-size: 3.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 4.625rem;
+  max-width: 23.75rem;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+}
+
+.blue-marker-div img {
+  width: 23.75rem;
+  height: 2.6875rem;
+  margin-top: -4rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.paragraph-div p {
+  color: white;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.two-buttons {
+  margin-top: 2rem;
+  gap: 1.5rem;
+  display: flex;
+}
+
+.two-buttons .subscribe,
+.two-buttons .view-projects {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 8px 0px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 0.875rem;
+}
+
+.two-buttons .subscribe {
+  background: linear-gradient(
+    90deg,
+    rgb(0, 144, 255) 0%,
+    rgb(54, 218, 233) 100%
+  );
+  width: 10.375rem;
+  height: 3.625rem;
+}
+
+.two-buttons .view-projects {
+  background: transparent;
+  width: 5rem;
+}
+
+.image-div {
+  width: 34.125rem;
+  height: 39rem;
+  display: flex;
+  flex-direction: column;
+  padding-top: 4rem;
+  justify-content: space-between;
+}
+.two-buttons button {
+  display: flex;
+  flex-direction: row;
+}
+.two-buttons .subscribe-hero {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  background: linear-gradient(
+    90deg,
+    rgb(0, 144, 255) 0%,
+    rgb(54, 218, 233) 100%
+  );
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 10px 20px;
+  border-radius: 14px;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 8px 0px;
+  height: 55px;
+  width: 196px;
+}
+.subscribe-hero img {
+  max-width: 40px;
+
+  height: auto;
+}
+
+.subscribe-hero:hover {
+  background-color: #0056b3;
+  color: white;
+}
+.view-projects-hero {
+  display: inline-flex;
+  padding: 1.0625rem 1.25rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 1rem;
+  border: 1px solid rgb(0, 144, 255);
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 2px;
+  background-color: transparent;
+  cursor: pointer;
+}
+@media (max-width: 1150px) {
+  .image-div {
+    display: none;
+  }
+  .main-blue-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+@media (max-width: 760px) {
+  .image-div {
+    display: none;
+  }
+  .main-blue-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .main-frank-miller-div {
+    width: 140%;
+  }
+}
+@media (max-width: 480px) {
+  .main-blue-div {
+    width: 100%;
+    background-color: rgb(6, 21, 43);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .main-frank-miller-div {
+    width: 120.8%;
+    background-color: rgb(6, 21, 43);
+    display: flex;
+  }
+}
+@media (max-width: 440px) {
+  .main-blue-div h1 {
+    font-size: 40px;
+  }
+  .blue-marker-div img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-frank-miller-div {
+    width: 120.8%;
+    margin-right: 50px;
+  }
+}
+@media (max-width: 540px) {
+  .two-buttons {
+    display: flex;
+    justify-content: center;
+  }
+  .main-frank-miller-div {
+    width: 123%;
+    background-color: rgb(6, 21, 43);
+  }
+}
+
+@media (max-width: 390px) {
+  .two-buttons {
+    display: flex;
+    justify-content: center;
+  }
+  .main-frank-miller-div {
+    width: 130%;
+    background-color: rgb(6, 21, 43);
+  }
+}
+@media (max-width: 535px) {
+  .main-blue-div h1 {
+    font-size: 40px;
+  }
+  .blue-marker-div img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-frank-miller-div {
+    width: 130%;
+    margin-right: 50px;
+  }
+}
