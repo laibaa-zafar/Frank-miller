@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="main-blue-div">
         <div className="heading-div">
           <h1>
-            👋 Hey, I am <br />
+            👋 Hey,  I am <br />
             Frank Miller
           </h1>
         </div>
@@ -21,7 +21,7 @@ const Hero = () => {
             Estate, Solar, Insurance, Healthcare, Merchant Services,
             <br /> and more with innovative technologies and strategies which
             <br /> help them achieve goals and build success in today's <br />{" "}
-            competitive marketplace. <br />
+            competitive marketplace. <br/>
           </p>
         </div>
         <div className="two-buttons">

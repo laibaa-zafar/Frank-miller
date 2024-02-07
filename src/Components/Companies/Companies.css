@@ -97,4 +97,19 @@
 
     }
   }
+  @media (max-width: 530px) {
+    .mobile-view-companies-div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 135%;
+      height: auto;
+      background: linear-gradient(
+        128deg,
+        rgba(234, 208, 247, 0.16) 0%,
+        rgba(214, 230, 244, 0.16) 99.98%
+      );
+
+    }
+  }
   

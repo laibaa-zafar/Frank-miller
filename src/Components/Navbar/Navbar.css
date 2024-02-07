@@ -12,12 +12,10 @@
   height: 80px;
   padding: 12px;
 }
-
 .navbar {
   display: flex;
   justify-content: center;
 }
-
 .logo img {
   max-height: 50px;
 }
@@ -32,87 +30,64 @@
   color: #333;
   font-weight: normal;
 }
-.nav .links a :hover{
-  color: blue;
+.main-navbar .links a :hover {
+  color: rgb(79, 0, 7);
 }
 
 .subscribe-navbar {
-  display: inline-flex;
-  justify-content: center;
+  display: flex;
   align-items: center;
-  gap: 10px;
-  border-radius: 16px;
-  box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 8px 0px;
+  gap: 12px;
+  border: none;
+  background: linear-gradient(
+    90deg,
+    rgb(0, 144, 255) 0%,
+    rgb(54, 218, 233) 100%
+  );
   color: white;
   cursor: pointer;
-  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
-  background: linear-gradient(90deg, rgb(0, 144, 255) 0%, rgb(54, 218, 233) 100%);
-  width: 10.375rem;
-  height: 3.625rem;
-  border: none;
   font-weight: bold;
-  font-size: 15px;
-  
+  font-size: 22px;
+  padding: 10px 20px;
+  border-radius: 14px;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 8px 0px;
+  height: 60px;
+  width: 180px;
 }
 
 .subscribe-navbar:hover {
   background-color: #0056b3;
   color: white;
 }
-.subscribe-navbar-mobile-view{
+.subscribe-navbar-mobile-view {
   border-radius: 10px;
   border: none;
   background-color: white;
 }
-@media (min-width: 901px) 
-{
-  .subscribe-navbar-mobile-view{
+@media (min-width: 901px) {
+  .subscribe-navbar-mobile-view {
     display: none;
   }
 }
-@media (max-width: 900px)
-{
-  .links a
-  {
+@media (max-width: 900px) {
+  .links a {
     display: none;
   }
-  .subscribe-navbar{
+  .subscribe-navbar {
     display: none;
   }
-  .main-navbar{
-    width: 90%;
-    height: 50px;
+  .main-navbar {
+    width: 80%;
+    height: 40px;
   }
- 
 }
-@media (max-width: 760px)
-{
-  .links a
-  {
-    display: none;
+@media screen and (max-width: 760px) {
+  .logo img {
+    width: 120px;
   }
-  .subscribe-navbar{
-    display: none;
+
+  .navbar {
+    display: flex;
+    justify-content: center;
   }
-  .main-navbar{
-    margin-left: 300px;
-  }
- 
-}
-@media (max-width: 570px)
-{
-  .navbar nav{
-     width: 50%;
-  }
-  .links a
-  {
-    display: none;
-  }
-  .subscribe-navbar{
-    display: none;
-  }
-  .main-navbar{
-    margin-left: 135px;
-  }
- 
 }

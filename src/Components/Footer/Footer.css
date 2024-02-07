@@ -66,19 +66,24 @@
   font-size: 18px;
   display: flex;
   align-items: center;
+  gap: 1rem;
 }
 
 .social-icons button {
-  background-color: transparent;
-  border: none;
-}
-
-.social-icons img {
-  width: 1.5rem;
-  height: 2rem;
+  display: flex;
+  width: 2.5rem;
+  height: 2.5rem;
+  justify-content: center;
+  align-items: center;
   border-radius: 1.25rem;
   border: 1px solid rgb(94, 109, 126);
   background-color: transparent;
+  cursor: pointer;
+}
+
+.social-icons img {
+  width: 0.5715rem;
+    height: 0.875rem;
 }
 @media (max-width: 790px) {
   .question-div h1 {
@@ -151,7 +156,6 @@
     font-size: 20px;
     display: flex;
     justify-content: flex-start;
-   
   }
 
   .main-footer-div {

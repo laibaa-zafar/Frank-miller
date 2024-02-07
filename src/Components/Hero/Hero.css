@@ -11,9 +11,7 @@
   padding: 2rem;
   display: flex;
   justify-content: flex-start;
-  align-items: center;
   flex-direction: column;
-  gap: 1.5rem;
   height: 55rem;
 }
 
@@ -40,7 +38,7 @@
 .blue-marker-div img {
   width: 23.75rem;
   height: 2.6875rem;
-  margin-top: -4rem;
+  margin-top: -3rem;
   margin-bottom: 1rem;
   display: flex;
   flex-direction: column;
@@ -86,7 +84,7 @@
 
 .two-buttons .view-projects {
   background: transparent;
-  width: 5rem;
+  width: 4rem;
 }
 
 .image-div {
@@ -104,22 +102,18 @@
 .two-buttons .subscribe-hero {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
   border: none;
-  background: linear-gradient(
-    90deg,
-    rgb(0, 144, 255) 0%,
-    rgb(54, 218, 233) 100%
-  );
+  background: linear-gradient( 90deg, rgb(0, 144, 255) 0%, rgb(54, 218, 233) 100% );
   color: white;
   cursor: pointer;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 22px;
   padding: 10px 20px;
   border-radius: 14px;
   box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 8px 0px;
-  height: 55px;
-  width: 196px;
+  height: 60px;
+  width: 180px;
 }
 .subscribe-hero img {
   max-width: 40px;
@@ -168,6 +162,17 @@
     width: 140%;
   }
 }
+@media (max-width: 670px) {
+  .image-div {
+    display: none;
+  }
+  .main-blue-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
 @media (max-width: 480px) {
   .main-blue-div {
     width: 100%;
@@ -197,13 +202,23 @@
     margin-right: 50px;
   }
 }
-@media (max-width: 540px) {
+@media (max-width: 535px) {
   .two-buttons {
     display: flex;
     justify-content: center;
   }
   .main-frank-miller-div {
-    width: 123%;
+    width: 165%;
+    background-color: rgb(6, 21, 43);
+  }
+}
+@media (max-width: 532px) {
+  .two-buttons {
+    display: flex;
+    justify-content: center;
+  }
+  .main-frank-miller-div {
+    width: 180%;
     background-color: rgb(6, 21, 43);
   }
 }
@@ -214,7 +229,7 @@
     justify-content: center;
   }
   .main-frank-miller-div {
-    width: 130%;
+    width: 170%;
     background-color: rgb(6, 21, 43);
   }
 }
@@ -228,7 +243,7 @@
     align-items: center;
   }
   .main-frank-miller-div {
-    width: 130%;
+    width: 138%;
     margin-right: 50px;
   }
 }

@@ -19,7 +19,7 @@
   /* width: 32.6875rem; */
   color: rgba(6, 21, 43, 0.8);
   font-family: Poppins;
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-style: normal;
   font-weight: 500;
   line-height: 1.75rem;
@@ -138,13 +138,20 @@
     padding-left: 120px;
     margin-left: 80px
   }
-  .meet-frank-content .meet-frank-heading h1 {
+  .meet-frank-content{
+    display: flex;
     justify-content: center;
-    font-size: 30px;
+  }
+  .meet-frank-content .meet-frank-heading h1 {
+    text-align: center;
+    justify-content: center;
+    font-size: 40px;
   }
   .meet-frank-content .meet-frank-paragraph p {
     justify-content: center;
-    font-size: 15px;
+    align-items: center;
+    font-size: 20px;
+
   }
   .end-button .view-projects button {
     size: 1rem;
