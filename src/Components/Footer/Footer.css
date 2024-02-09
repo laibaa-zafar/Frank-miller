@@ -50,7 +50,7 @@
 
 .all-copyrights-social {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: flex-end;
   width: 98%;
   color: white;
@@ -59,7 +59,7 @@
 
 .all-copyrights-reserved {
   margin-top: 20px;
-  margin-left: 5rem;
+  /* margin-left: 5rem; */
 }
 
 .social-icons {
@@ -94,7 +94,7 @@
 
   .main-footer-div {
     background-color: rgba(6, 21, 43);
-    width: 95%;
+    /* width: 95%; */
   }
   .form-div input {
     display: flex;
@@ -112,7 +112,7 @@
 
   .main-footer-div {
     background-color: rgba(6, 21, 43);
-    width: 95%;
+    /* width: 95%; */
   }
   .form-div input {
     display: flex;
@@ -129,7 +129,7 @@
 
   .main-footer-div {
     background-color: rgba(6, 21, 43);
-    width: 118%;
+    /* width: 118%; */
   }
   .form-div input {
     display: flex;
@@ -160,13 +160,13 @@
 
   .main-footer-div {
     background-color: rgba(6, 21, 43);
-    width: 132.5%;
+    /* width: 132.5%; */
   }
   .form-div input {
     display: flex;
     flex-direction: column;
     font-size: 12px;
-    margin-left: 50px;
+    /* margin-left: 50px; */
   }
   .all-copyrights-social {
     flex-direction: column;
