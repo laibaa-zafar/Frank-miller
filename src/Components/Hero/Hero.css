@@ -172,35 +172,6 @@
     height: auto;
   }
 }
-/* @media (max-width: 480px) {
-  .main-blue-div {
-    width: 100%;
-    background-color: rgb(6, 21, 43);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-  .main-frank-miller-div {
-    width: 120.8%;
-    background-color: rgb(6, 21, 43);
-    display: flex;
-  }
-} */
-/* @media (max-width: 440px) {
-  .main-blue-div h1 {
-    font-size: 40px;
-  }
-  .blue-marker-div img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .main-frank-miller-div {
-    width: 120.8%;
-    margin-right: 50px;
-  }
-} */
 @media (max-width: 535px) {
   .two-buttons {
     display: flex;
@@ -220,32 +191,54 @@
     /* width: 180%; */
     background-color: rgb(6, 21, 43);
   }
+  
 }
 
 @media (max-width: 390px) {
-  .two-buttons {
-    display: flex;
-    justify-content: center;
+    .two-buttons {
+      display: flex;
+      justify-content: center;
+    }
+    .main-frank-miller-div {
+      /* width: 170%; */
+      background-color: rgb(6, 21, 43);
+    }
+    .main-blue-div {
+      padding: 2rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      flex-direction: column;
+    }
+    .heading-div h1 {
+      font-size: 1rem;
+      line-height: 2.5rem;
+      max-width: 100%;
+      padding-top: 20px;
+    }
+    .blue-marker-div img {
+      width: 100%;
+      height: auto;
+      margin-top: -1rem;
+      margin-bottom: 1rem;
+    }
+    .two-buttons {
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .two-buttons .subscribe-hero,
+    .two-buttons .view-projects-hero {
+      width: 100%;
+      font-size: 1rem;
+    }
+    .two-buttons .subscribe-hero {
+      height: 3.625rem;
+    }
+    .two-buttons .subscribe-hero img {
+      max-width: 30px;
+    }
   }
-  .main-frank-miller-div {
-    width: 170%;
-    background-color: rgb(6, 21, 43);
-  }
-}
-/* @media (max-width: 535px) {
-  .main-blue-div h1 {
-    font-size: 40px;
-  }
-  .blue-marker-div img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .main-frank-miller-div {
-    width: 138%;
-    margin-right: 50px;
-  }
-} */
 @media (max-width: 460px) {
   .main-frank-miller-div {
     display: flex;
@@ -254,8 +247,6 @@
     justify-content: center;
     padding: 2rem;
     gap: 1rem;
-    /* height: 80vh; */
-    /* width: 100%; */
     background-color: rgb(6, 21, 43);
   }
 
@@ -265,7 +256,7 @@
     padding: 2rem;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     text-align: center;
   }
 
@@ -283,7 +274,7 @@
   }
 
   .paragraph-div p {
-    font-size: 0.875rem;
+    font-size: 0.5rem;
     line-height: 1.5rem;
   }
 
@@ -302,6 +293,106 @@
     height: 3.625rem;
   }
 
+  .two-buttons .subscribe-hero img {
+    max-width: 30px;
+  }
+}
+@media (max-width: 547px) {
+  .two-buttons {
+    display: flex;
+    justify-content: center;
+  }
+  .main-frank-miller-div {
+    /* width: 170%; */
+    background-color: rgb(6, 21, 43);
+  }
+  .main-blue-div {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+  }
+  .heading-div h1 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    max-width: 100%;
+    padding-top: 20px;
+  }
+  .blue-marker-div img {
+    width: 100%;
+    height: auto;
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+    font-size: 0.5rem;
+  }
+  .paragraph-div p {
+    font-size: 0.7rem;
+    line-height: 1.5rem;
+  }
+  .two-buttons {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .two-buttons .subscribe-hero,
+  .two-buttons .view-projects-hero {
+    width: 100%;
+    font-size: 1rem;
+  }
+  .two-buttons .subscribe-hero {
+    height: 3.625rem;
+  }
+  .two-buttons .subscribe-hero img {
+    max-width: 30px;
+  }
+}
+@media (max-width: 400px) {
+  .two-buttons {
+    display: flex;
+    justify-content: center;
+  }
+  .main-frank-miller-div {
+    /* width: 170%; */
+    background-color: rgb(6, 21, 43);
+  }
+  .main-blue-div {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+  }
+  .heading-div h1 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    max-width: 100%;
+    padding-top: 20px;
+  }
+  .blue-marker-div img {
+    width: 100%;
+    height: auto;
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+    font-size: 0.5rem;
+  }
+  .paragraph-div p {
+    font-size: 0.5rem;
+    line-height: 1.5rem;
+  }
+  .two-buttons {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .two-buttons .subscribe-hero,
+  .two-buttons .view-projects-hero {
+    width: 100%;
+    font-size: 1rem;
+  }
+  .two-buttons .subscribe-hero {
+    height: 3.625rem;
+  }
   .two-buttons .subscribe-hero img {
     max-width: 30px;
   }
